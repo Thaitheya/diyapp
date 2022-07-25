@@ -8,7 +8,7 @@ public class MVCController {
 
 	
 	@GetMapping("/")
-	public String mvcController() {
+	public String index() {
 		
 		return "index";
 	}
