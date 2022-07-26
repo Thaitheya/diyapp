@@ -4,7 +4,7 @@
 <artifactId>diyapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	  <name>DIY app</name>
+	  <name>diychainsysapp</name>
 	<description>spring MVC  project for hosting in colud</description>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -68,7 +68,7 @@
 				<artifactId>heroku-maven-plugin</artifactId>
 				<version>3.0.3</version>
 				<configuration>
-					<appName>diyapp</appName>
+					<appName>diychainsysapp</appName>
 				</configuration>
 			</plugin>
 			<plugin>
